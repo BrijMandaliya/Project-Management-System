@@ -1,0 +1,26 @@
+thead {
+    text-align: center;
+    position: sticky; top: 1;
+}
+
+thead tr:first-child {
+    background-color: transparent;
+    color: black;
+}
+#project-table thead tr th input {
+    transition: transform .20s;
+    width: 150px;
+    border: 1px solid rgb(97, 167, 172);
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+#project-table thead tr th input:hover {
+    transform: scale(1.1);
+    border: 2px solid rgb(97, 172, 162);
+    height: 35px;
+}
+
+.searchBar {
+    width: 150px;
+}

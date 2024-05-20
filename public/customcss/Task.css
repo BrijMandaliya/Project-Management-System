@@ -1,0 +1,79 @@
+thead {
+    text-align: center;
+    position: sticky;
+    top: 1;
+}
+
+thead tr:first-child {
+    background-color: transparent;
+    color: black;
+}
+#task-table thead tr th input {
+    transition: transform 0.2s;
+    width: 150px;
+    border: 1px solid rgb(97, 167, 172);
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+#task-table thead tr th input:hover {
+    transform: scale(1.1);
+    border: 2px solid rgb(97, 172, 162);
+    height: 35px;
+}
+
+
+
+.detailTask{
+    text-decoration: none;
+    color: black;
+}
+
+.detailTask:hover{
+
+    color: black;
+}
+
+.searchBar {
+    width: 150px;
+}
+
+#task_images {
+    transition: transform 0.5s;
+}
+
+#task_images:hover {
+    transform: scale(2.5);
+    height: 250px;
+    width: 250px;
+}
+
+.offcanvas-body {
+    position: relative;
+}
+
+.task-images-for-update {
+    position: relative;
+}
+
+.task_images_for_update {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    margin: 20px;
+    transition: transform .20s;
+
+}
+
+.task_images_for_update:hover{
+    transform: scale(1.5);
+    opacity: 0.3;
+}
+
+.close-icon-for-images {
+    position: relative;
+    top: 70px;
+    left: -80px;
+    width:50px;
+    height:50px;
+}
